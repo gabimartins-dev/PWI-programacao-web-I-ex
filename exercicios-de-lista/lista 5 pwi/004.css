@@ -1,0 +1,16 @@
+.container {
+     display: flex;
+     gap: 20px;
+}
+
+#coluna1 {
+    border: 20px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+#coluna2 {
+    border: 20px;
+    border-radius: 20px;
+    border-color: black;
+}

@@ -1,0 +1,11 @@
+a {
+    color: pink;
+}
+
+a:hover{
+    color: rgb(185, 135, 185);
+}
+
+a:visited {
+    color: rgb(103, 142, 99);
+}
