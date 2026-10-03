@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9beaf5;
+    background-image: url("img/bg-2.png");
+    background-repeat: repeat;
+    color: #555;
+}
+
+
+/* header */
+
+header {
+    width: 1140px;
+    margin: 10px auto 20px;
+    padding: 10px;
+    background-color: #ff3b0b;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+
+header img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* registrar e login */
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+    font-size: 25px;
+}
+
+form {
+    width: 350px;
+    max-width: 90%;
+    margin: auto;
+    padding: 25px;
+}
+
+form label {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+form input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+form h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+form select {
+    width: 120px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+form p {
+    font-size: 11px;
+}
+
+form input[type="button"], form button {
+    padding: 8px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #0796c1;
+    color: white;
+}
+
+form input[type="button"]:hover, form button:hover {
+    background-color: #ff3b0b;
+    transform: scale(1.05);
+}
+
+
+/* smartphones */
+
+.background {
+    width: 800px;
+    margin-left: calc((100% - 1140px) / 2);
+    margin-right: 20px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    float: left;
+    justify-content: center;
+}
+
+.card {
+    width: 380px;
+    padding: 0;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    margin-top: 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+/* tutoriais */
+
+.aside-01 {
+    width: 320px;
+    margin-right: calc((100% - 1140px) / 2);
+    float: right;
+}
+
+.tutoriais {
+    padding: 8px;
+    margin-bottom: 12px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.tutoriais h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-aside {
+    width: 100%;
+    height: 80px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.card-aside img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+
+.card-aside p {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.card-aside button {
+    padding: 4px 8px;
+    background-color: #0796c1;
+    color: white;
+    border: none;
+}
+
+
+/* publicidade */
+
+.aside-02 {
+    width: 320px;
+    margin-right: calc((100% - 1140px) / 2);
+    margin-top: 15px;
+    float: right;
+}
+
+.pulicidade {
+    padding: 8px;
+    margin-bottom: 12px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.pulicidade h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.ads {
+    padding: 7px;
+    background-color: white;
+}
+
+.ads img {
+    width: 100%;
+    margin-bottom: 12px;
+}

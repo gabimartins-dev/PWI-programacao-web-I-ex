@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftsy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header>
+        <img src="img/logo.png" alt="logo craftsy">
+        <nav>
+            <a href="smartphones.html">SMARTPHONES</a>
+            <a href="tablets.html">TABLETS</a>
+            <a href="computadores.html">COMPUTADORES</a>
+
+            <div class="login">
+                <a href="login.html">LOGIN</a>
+                <a href="registrar.html">REGISTRAR</a>
+            </div>
+
+        </nav>
+      </header>
+      <h1>REGISTRAR</h1>
+
+      <form action="">
+         <label for="nome">Nome</label><br>
+         <input type="text" placeholder="Seu nome aqui" required><br>
+         <label for="nome">Emai</label><br>
+         <input type="text" placeholder="email@email.com" required><br>
+         <label for="nome">Senha</label><br>
+         <input type="text" placeholder="senha" required><br>
+
+         <h2>País de nascimento</h2>
+         <select required>
+               <option value="">Chile</option>
+               <option value="">China</option>
+               <option value="">Cuba</option>
+         </select>
+
+         <h2>Genero</h2>
+               <label for="masc">Masculino</label>
+               <input type="radio">
+               <label for="fem">Feminino</label>
+               <input type="radio">
+               <label for="outro">Outro</label>
+               <input type="radio">
+
+         <h2>Hobbies</h2>
+               <label for="guitarra">guitarra</label>
+               <input type="radio">
+               <label for="futebol">futebol</label>
+               <input type="radio">
+               <label for="tenis">tenis</label>
+               <input type="radio">
+               <label for="programação">programação</label>
+               <input type="radio">
+
+        <h2> Comentários </h2>
+        <textarea name="Comentários" id="Comentários">
+
+        </textarea>
+
+        <label for="termos">Aceito os termos e condições</label>
+        <input type="radio" required>
+
+        <p>Botão enviar com tag 'input'</p>
+        <input type="button" value="Registrar">
+        <input type="button" value="Cancelar">
+
+        <p>Botão enviar com tag 'button'</p>
+        <button>Registrar</button>
+        <button>Cancelar</button>
+      </form>
+
+</body>
+</html>
